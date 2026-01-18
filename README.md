@@ -1,16 +1,21 @@
-# React + Vite
+# User Managemen System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositori ini berisi kode sumber Frontend untuk aplikasi Manajemen User, yang dibangun menggunakan **ReactJS** dan **Vite**. Project ini fokus pada antarmuka pengguna yang responsif dan komunikasi data melalui RESTful API.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Library Utama:** Reac.js
+- **Build Tool:** Vite (Fast Development Flow)
+- **Routing:** React Router DOM (Navigation)
+- **State Fetching:** Fetch API dengan Async/Await
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur Frontend
+- **Dynamic Form Handling:** Menggunakan *Controlled Components* untuk manajemen input
+- **Real-time Data Fetching:** Mengambil dan menampilkan data dari server backend secara otomatis saat halaman dimuat.
+- **EnviromentConfiguration:**  Implementasi `import.meta.env` untuk fleksibilitas URL API.
+- **UI/UX:** Desain tabel yang bersih dan navigasi antar halaman yang *seamless* tanpa refresh (SPA)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Cara Menjalalankan Project
+1. **CLone Repositori:**
+   ```bash
+   git clone [https://github.com/fadhlihaiban/reactjs-exploration.git](https://github.com/fadhlihaiban/reactjs-exploration.git)
+   cd reactjs-exploration
