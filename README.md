@@ -14,8 +14,8 @@ Repositori ini berisi kode sumber Frontend untuk aplikasi Manajemen User, yang d
 - **EnviromentConfiguration:**  Implementasi `import.meta.env` untuk fleksibilitas URL API.
 - **UI/UX:** Desain tabel yang bersih dan navigasi antar halaman yang *seamless* tanpa refresh (SPA)
 
-## Cara Menjalalankan Project
+## 🚀 Cara Menjalalankan Project
 1. **CLone Repositori:**
    ```bash
    git clone [https://github.com/fadhlihaiban/reactjs-exploration.git](https://github.com/fadhlihaiban/reactjs-exploration.git)
-   cd reactjs-exploration
+   cd reactjs-exploration\
