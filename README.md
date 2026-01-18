@@ -3,7 +3,7 @@
 Repositori ini berisi kode sumber Frontend untuk aplikasi Manajemen User, yang dibangun menggunakan **ReactJS** dan **Vite**. Project ini fokus pada antarmuka pengguna yang responsif dan komunikasi data melalui RESTful API.
 
 ## 🛠️ Tech Stack
-- **Library Utama:** Reac.js
+- **Library Utama:** React.js
 - **Build Tool:** Vite (Fast Development Flow)
 - **Routing:** React Router DOM (Navigation)
 - **State Fetching:** Fetch API dengan Async/Await
